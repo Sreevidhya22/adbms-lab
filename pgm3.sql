@@ -1,10 +1,14 @@
 declare
-a integer;
+l integer;
+b integer;
+h integer;
 v integer;
 begin
-a:=&a;
-v:=a*a*a;
-dbms_output.put_line('volume:'||v);
+l:=&l;
+b:=&b;
+h:=&h;
+v:=l*b*h;
+dbms_output.put_line('Volume of cuboid=' ||v);
 end;
 /
 
