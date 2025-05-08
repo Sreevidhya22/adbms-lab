@@ -1,0 +1,13 @@
+SQL> create table cust2(cust_id int,name varchar(25),salary int);
+
+Table created.
+
+SQL> insert into cust2 values(01,'vidhya',70000);
+
+insert into cust2 values(02,'shirna',30000);
+ 
+insert into cust2 values(03,'sruthy',32000);
+
+SQL> insert into cust2 values(04,'sivani',35000);
+
+SQL> insert into cust2 values(05,'lakshmi',28000);
